@@ -9,14 +9,16 @@ public class UserEntity extends BaseEntity  {
     /**
      *
      */
-    private static final long serialVersionUID = 5237730257103305078L;
 
+    private static final long serialVersionUID = 1L;
     private Long id;
     private String userName;
     private String userSex;
     public SonEntity son;
-    private ArrayList<String> gifts;
+    public ArrayList<String> gifts;
+    public ArrayList<String> gifts2;
     public HashMap<String,String> others;
+    public HashMap<String,String> others2;
     public Long getId() {
         return id;
     }
